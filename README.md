@@ -13,7 +13,7 @@
 
 ## Demo
 
-Hosted demo site: <https://tg-index-demo.herokuapp.com>
+Hosted demo site: <https://christyroys007-tg-index.zeet.app>
 
 ## Deploy Guide
 
@@ -79,10 +79,6 @@ This is the general format, change the values of corresponding fields as your re
 ``` bash
 python3 -m app
 ```
-
-## API
-
-Here's the api description. [API](https://github.com/odysseusmax/tg-index/wiki/API)
 
 ## Contributions
 
