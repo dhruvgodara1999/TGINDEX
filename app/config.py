@@ -26,7 +26,7 @@ except (KeyError, ValueError):
     sys.exit(1)
 
 try:
-    index_settings_str = os.environ["{"index_all": true,"index_private":false,"index_group": false,"index_channel": true,"exclude_chats": [true],"include_chats": [false]}"].strip()
+    index_settings_str = os.environ["index_all": true,"index_private":false,"index_group": false,"index_channel": true,"exclude_chats": [true],"include_chats": [false].strip()
     index_settings = json.loads(index_settings_str)
 except:
     traceback.print_exc()
